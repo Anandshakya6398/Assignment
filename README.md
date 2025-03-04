@@ -25,17 +25,17 @@ Landing Page Deployed link:- https://assign012.netlify.app/
 
 ├── src/
 
-│   ├── assets/
+ │   ├── assets/
 
-│   ├── components/
+ │   ├── components/
 
-│   │   ├── Additional.jsx
+   │   │   ├── Additional.jsx
 
-│   │   ├── Dashboard.jsx
+   │   │   ├── Dashboard.jsx
 
-│   │   ├── Home.jsx
+   │   │   ├── Home.jsx
 
-│   │   └── LoginPage.jsx
+   │   │   └── LoginPage.jsx
 
 │   ├── App.jsx
 
