@@ -62,7 +62,7 @@ const Dashboard = () => {
       {/* Sidebar */}
 
       <div className="w-32 bg-white shadow-lg p-6 flex flex-col space-y-6 ">
-        <div className="w-8 h-8 mx-auto bg-purple-600  flex items-center rounded justify-center text-white text-lg font-bold">
+        <div className="w-8 h-8 mx-auto bg-purple-600  flex items-center rounded justify-center text-white text-lg font-bold  hover:cursor-pointer">
           P
         </div>
         <nav className="flex  text-xs flex-col space-y-4">
@@ -124,7 +124,7 @@ const Dashboard = () => {
             <div className="text-2xl mt-10 mb-6">
               <IoSettingsOutline className="hover:cursor-pointer" />
             </div>
-            <button className="bg-red-500 hover:bg-red-700 hover:cursor-pointer text-white font-bold py-2 px-3 -mx-1 rounded-full">
+            <button className="bg-red-500 hover:bg-red-700 hover:cursor-pointer text-white font-bold py-2 px-3 -mx-1 rounded-full ">
               A
             </button>
           </div>
@@ -135,14 +135,14 @@ const Dashboard = () => {
       <div className="flex-1 p-8">
         <div className="flex items-center gap-4 justify-between">
           <h1 className="md:text-2xl text-xs font-bold">Add New Product</h1>
-          <button className="bg-purple-600 float-right text-white py-2 px-4 rounded flex items-center space-x-2">
-            <span className="text-xs hover:cursor-pointer">Upgrade to Pro</span>
+          <button className="bg-purple-600  hover:bg-purple-700 duration-500 float-right text-white py-2  hover:cursor-pointer px-4 rounded flex items-center space-x-2">
+            <span className="text-xs hover:cursor-pointer ">Upgrade to Pro</span>
           </button>
         </div>
 
         {/* Upload Box */}
         <div className="mt-4 p-6 bg-purple-50 border-2 border-dashed border-purple-300 rounded-lg text-center">
-          <button className="bg-purple-600 text-xs md:font-semibold text-white px-6 py-2 rounded-lg hover:cursor-pointer">
+          <button className="bg-purple-600 text-xs md:font-semibold text-white px-6 py-2 rounded-lg hover:bg-purple-700 duration-500 hover:cursor-pointer">
             + Start Uploading
           </button>
           <p className="text-gray-500 mt-2">
